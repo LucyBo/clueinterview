@@ -1,0 +1,22 @@
+
+@import "../../../public/assets/_master.scss";
+
+.navbar-brand {
+  color: black;
+  width: 160px;
+  margin: 0 0 0 0;
+    .typography-top {
+      font-family: $decorative-font;
+      font-size: 3rem;
+    }
+    .typography-bottom {
+    font-family: $decorative-font;
+    position: relative;
+    top: 1.3rem;
+    right: 4rem;
+    font-size: 1.8rem;
+    }
+    &:hover {
+      color: black;
+    }
+}

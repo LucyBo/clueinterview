@@ -1,0 +1,68 @@
+@import "../../../public/assets/_master.scss";
+
+#achievement {
+  background-color: $green;
+  height: auto;
+    .container {
+      .row {
+        padding: 1rem 1rem;
+        .col {
+            a {
+                font-family: $basic-font;
+                color: $basic-dark;
+                font-size: 1.1rem;
+                span {
+                  font-size: 1.4rem;
+                  font-weight: bold;
+               }
+            }
+          }
+        }
+      }
+    }
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #achievement {
+    .container {
+      .row {
+        padding: 0.6rem 1rem;
+        .col {
+            a {
+                font-size: 0.9rem;
+                span {
+                  font-size: 1.1rem;
+                  font-weight: bold;
+               }
+            }
+          }
+        }
+      }
+    }
+}
+
+@media (max-width: 575.98px) { 
+  #achievement {
+  background-color: $green;
+  height: auto;
+    .container {
+      .row {
+        padding: 1rem 1rem;
+        .col {
+            a {
+                font-family: $basic-font;
+                color: $basic-dark;
+                font-size: 0.9rem;
+                  &:hover {
+                    color: $tangerine;
+                    text-decoration: none;
+                  }
+                span {
+                  font-size: 1rem;
+                  font-weight: bold;
+               }
+            }
+          }
+        }
+      }
+    }
+ }
