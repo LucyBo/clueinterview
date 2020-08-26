@@ -1,0 +1,62 @@
+@import "../../../public/assets/_master.scss";
+
+.big-card {
+  .card {
+    border: none;
+    margin: 2px 2px;
+    img {
+      max-height: 350px;
+    }
+    .card-img-overlay {
+      color: $basic-dark;
+      font-family: $basic-font;
+      padding-top: 0;
+       .card-title {
+        color: black;
+        background-color: white;
+        font-size: 1.2rem;
+        padding: 0.7rem 5rem 0.7rem 5rem;
+        &:hover {
+          color: $tangerine;
+        }
+      }
+      .decorative-header {
+      display: flex; 
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 40%;
+      .card-category {
+        background-color: $grey;
+        font-size: 0.8rem;
+        height: 2rem;
+        width: 15rem;
+        padding: 0.4rem;
+        -webkit-box-shadow: 
+        30px 0px 0px 0px #000000,
+        -30px 0px 0px 0px #000000; 
+        ; 
+        box-shadow: 
+        11.5px 0px 0px 0px $grey, 
+        -11.5px 0px 0px 0px $grey,
+        -240px -16px 0px 0px white,
+        240px -16px 0px 0px white;
+      }
+        .left-triangle,  {
+          height: 1.41rem;
+          width: 1.41rem;
+          transform: rotate(45deg);
+          background-color: $grey;
+          margin-top: 0.26rem;
+        }
+        .right-triangle {
+          height: 1.41rem;
+          width: 1.41rem;
+          transform: rotate(45deg);
+          background-color: $grey;
+          margin-top: 0.26rem;
+        }
+        }
+    }
+  }
+}
