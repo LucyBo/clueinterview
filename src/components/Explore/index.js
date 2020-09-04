@@ -10,7 +10,7 @@ import sketch from "../../icons/sketch.png";
 class Explore extends Component {
   render() {
     return (
-      <div id="explore">
+      <div id="explore" className="container">
         <h4>Explore</h4>
         <div className="container">
           <div className="icon-menu"> 

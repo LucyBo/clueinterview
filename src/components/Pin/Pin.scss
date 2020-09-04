@@ -1,0 +1,63 @@
+@import "../../../public/assets/_master.scss";
+.pin {
+    padding: 0.5rem;
+    cursor: pointer;
+    .card {
+        border-radius: 0;
+        .container {
+            position: relative;
+            text-align: center;
+            padding: 0 0 0 0;
+            .deco-left {
+                background-color: $grey;
+                height: 1.58rem;
+                width: 1.58rem;
+                transform: rotate(45deg);
+                position: absolute;
+                left: 31%;
+                bottom: -11px;
+            }
+            .deco-right {
+                background-color: $grey;
+                height: 1.58rem;
+                width: 1.58rem;
+                transform: rotate(45deg);
+                position: absolute;
+                left: 61.3%;
+                bottom: -11px;
+            }
+            a {
+                background-color: $grey;
+                border-radius: 0;
+                border: none;
+                color: black;
+                position: absolute;
+                bottom: -16px;
+                width: 30%;
+                left: 35%;
+                text-transform: uppercase;
+                font-size: 0.7rem;
+                padding-top: 0.6rem;
+                padding-bottom: 0.6rem;
+            }
+        }
+        transition: 0.3s;
+        &:hover {
+            transform: translate(0, -6px);
+        }
+        .card-body {
+            -webkit-box-shadow: 5px 5px 18px 0px $grey;
+            -moz-box-shadow: 5px 5px 18px 0px $grey;
+            box-shadow: 5px 5px 18px 0px $grey;
+            -webkit-box-shadow: -5px 0px 18px 0px $grey;
+            -moz-box-shadow: -5px 0px 18px 0px $grey;
+            box-shadow: -5px 0px 18px 0px $grey;
+            .card-title {
+                &:hover {
+                    color: $tangerine;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
