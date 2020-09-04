@@ -1,0 +1,45 @@
+@import "../../../public/assets/_master.scss";
+#explore {
+    padding-top: 3rem;
+    h4 {
+        font-family: $basic-font;
+    }
+    .container {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .icon-menu {
+            img {
+                height: 50px;
+            }
+            .category-btn {
+                font-size: 1rem;
+                padding: 0.2rem 1.5rem;
+                margin: 1rem 0.6rem;
+                border-radius: 0;
+                border: none;
+                color: black;
+                display: block;
+            }
+            #ctgr-1 {
+                background-color: $violet;
+            }
+            #ctgr-2 {
+                background-color: $beige
+            }
+            #ctgr-3 {
+                background-color: $olive;
+                ;
+            }
+            #ctgr-4 {
+                background-color: $grey;
+            }
+            #ctgr-5 {
+                background-color: $turquoise;
+            }
+            #ctgr-6 {
+                background-color: $orange;
+            }
+        }
+    }
+}

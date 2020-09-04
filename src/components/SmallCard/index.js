@@ -5,7 +5,7 @@ export default class SmallCard extends Component {
   render() {
     return (
       <div className="small-card">
-        <div class="card">
+        <div className="card">
         <div className="decorative-header">
               <span className="left-triangle"></span>
               <div className="card-category text-uppercase">Card title</div>

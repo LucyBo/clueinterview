@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+//import Masonry from 'react-masonry-css';
+import "./MasonryGallery.scss";
 
 export default class MasonryGallery extends Component {
   render() {
     return (
-      <div>
-        Masonry Gallery
+      <div id="masonry-gallery">
+        Masonry
       </div>
     )
   }

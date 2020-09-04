@@ -40,7 +40,7 @@ export default class Footer extends Component {
           </div>
         </div>
       </div>
-        <div className="author text-left">
+        <div className="container-fluid author text-left">
           <p> This website was handcrafted by Lucyna Borkowska </p>
           <p> Clue Interview - part of the LucyBo publishing family </p>
           <p>Beautiful free photos contributed by talented community of <a href="https://www.pexels.com/">Pexels</a> and <a href="https://www.unsplash.com/">Unsplash</a> 
