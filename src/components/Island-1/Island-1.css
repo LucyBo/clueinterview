@@ -1,1 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:wght@200;300;400&display=swap");
+#island-1 {
+  padding-top: 3rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+#island-1 h2 {
+  padding-bottom: 1rem;
+  transition: 0.3s;
+}
+
+#island-1 h2:hover {
+  color: #E4965E;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#island-1 h2 .arrows {
+  color: #D0D9EB;
+}
+
+#island-1 .container-fluid {
+  width: 80vw;
+}

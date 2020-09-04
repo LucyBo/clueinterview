@@ -2,6 +2,7 @@
 .pin {
   padding: 0.5rem;
   cursor: pointer;
+  font-family: "Work Sans", sans-serif;
 }
 
 .pin .card {
@@ -13,26 +14,6 @@
   position: relative;
   text-align: center;
   padding: 0 0 0 0;
-}
-
-.pin .card .container .deco-left {
-  background-color: #D0D9EB;
-  height: 1.58rem;
-  width: 1.58rem;
-  transform: rotate(45deg);
-  position: absolute;
-  left: 31%;
-  bottom: -11px;
-}
-
-.pin .card .container .deco-right {
-  background-color: #D0D9EB;
-  height: 1.58rem;
-  width: 1.58rem;
-  transform: rotate(45deg);
-  position: absolute;
-  left: 61.3%;
-  bottom: -11px;
 }
 
 .pin .card .container a {
@@ -61,6 +42,10 @@
   -webkit-box-shadow: -5px 0px 18px 0px #D0D9EB;
   -moz-box-shadow: -5px 0px 18px 0px #D0D9EB;
   box-shadow: -5px 0px 18px 0px #D0D9EB;
+}
+
+.pin .card .card-body .card-title {
+  transition: 0.3s;
 }
 
 .pin .card .card-body .card-title:hover {

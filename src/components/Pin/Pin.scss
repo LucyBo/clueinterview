@@ -2,30 +2,13 @@
 .pin {
     padding: 0.5rem;
     cursor: pointer;
+    font-family: $basic-font;
     .card {
         border-radius: 0;
         .container {
             position: relative;
             text-align: center;
             padding: 0 0 0 0;
-            .deco-left {
-                background-color: $grey;
-                height: 1.58rem;
-                width: 1.58rem;
-                transform: rotate(45deg);
-                position: absolute;
-                left: 31%;
-                bottom: -11px;
-            }
-            .deco-right {
-                background-color: $grey;
-                height: 1.58rem;
-                width: 1.58rem;
-                transform: rotate(45deg);
-                position: absolute;
-                left: 61.3%;
-                bottom: -11px;
-            }
             a {
                 background-color: $grey;
                 border-radius: 0;
@@ -53,6 +36,7 @@
             -moz-box-shadow: -5px 0px 18px 0px $grey;
             box-shadow: -5px 0px 18px 0px $grey;
             .card-title {
+                transition: 0.3s;
                 &:hover {
                     color: $tangerine;
                     text-decoration: underline;
@@ -61,3 +45,22 @@
         }
     }
 }
+
+// .deco-left {
+//     background-color: $grey;
+//     height: 1.58rem;
+//     width: 1.58rem;
+//     transform: rotate(45deg);
+//     position: absolute;
+//     left: 31%;
+//     bottom: -11px;
+// }
+// .deco-right {
+//     background-color: $grey;
+//     height: 1.58rem;
+//     width: 1.58rem;
+//     transform: rotate(45deg);
+//     position: absolute;
+//     left: 61.3%;
+//     bottom: -11px;
+// }
